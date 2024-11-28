@@ -1,6 +1,6 @@
 # Maintainer: Breno Ramalho Lemes <breno@br-lemes.net>
 pkgname=php-firebird
-pkgver=8.3.13
+pkgver=8.3.14
 pkgrel=1
 pkgdesc='Firebird module for PHP'
 arch=('x86_64')
@@ -9,7 +9,7 @@ license=('PHP-3.01')
 depends=("php=${pkgver}" 'glibc' 'libfbclient')
 source=("https://php.net/distributions/php-${pkgver}.tar.xz"
 	'pdo_firebird.ini')
-sha256sums=('89adb978cca209124fe53fd6327bc4966ca21213a7fa2e9504f854e340873018'
+sha256sums=('58b4cb9019bf70c0cbcdb814c7df79b9065059d14cf7dbf48d971f8e56ae9be7'
 	'41187271bb8a552ff10c997bc31557f9f09f47087618fde0c08e3304e204b771')
 
 build() {
